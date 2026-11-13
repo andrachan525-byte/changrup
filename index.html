@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chancan Group</title>
+  <!-- Menghubungkan huruf Poppins dan file CSS (pertemuan 4) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER: nama usaha dan menu -->
+  <header>
+    <h1>Chancan Group</h1>
+    <p><em>Perkumpulan bisnis dengan banyak anak perusahaan</em></p>
+    <nav>
+      <a href="#tentang">Tentang</a> |
+      <a href="#produk">Produk</a> |
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- BAGIAN TENTANG -->
+    <section id="tentang">
+      <h2>Tentang Kami</h2>
+      <p>Chancan Group adalah sebuah perkumpulan bisnis yang menaungi
+         <strong>banyak anak perusahaan</strong> di bawahnya.</p>
+      <img src="img/Jam 2.jpg" alt="Koleksi jam Chancan Group" width="100">
+      <img src="img/Jam 1.jpg" alt="Jam tangan Chancan Group" width="100">
+    </section>
+
+    <!-- BAGIAN PRODUK -->
+    <section id="produk">
+      <h2>Produk dan Harga</h2>
+      <p>Ada beberapa produk yang dihasilkan oleh perusahaan kami, di antaranya:</p>
+      <ol>
+        <li>Fashion</li>
+        <li>Makanan</li>
+        <li>Koleksi jam</li>
+        <li>Alat rumah tangga</li>
+      </ol>
+
+      <h3>Daftar Harga</h3>
+      <table>
+        <thead>
+          <tr><th>Produk</th><th>Kategori</th><th>Harga</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Jam Tangan Classic</td><td>Koleksi Jam</td><td>Rp150.000</td></tr>
+          <tr><td>Kaos Chancan</td><td>Fashion</td><td>Rp85.000</td></tr>
+          <tr><td>Keripik Pisang 250 g</td><td>Makanan</td><td>Rp20.000</td></tr>
+          <tr><td>Tangga Lipat Aluminium</td><td>Alat Rumah Tangga</td><td>Rp350.000</td></tr>
+        </tbody>
+      </table>
+
+      <!-- Video YouTube -->
+      <h3>Video Kami</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/h5NxBAYlGZQ?si=MhNslMjK23CNpYGL" title="Video Chancan Group" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <!-- BAGIAN KONTAK -->
+    <section id="kontak">
+      <h2>Hubungi Kami</h2>
+      <p>Jl. Letjend Pol. Soemarto No. 2, Watumas<br>Purwokerto Timur, Banyumas</p>
+      <p>
+        <a class="tombol-wa" href="https://wa.me/6287815813560?text=Halo%20Chancan%20Group,%20saya%20mau%20pesan" target="_blank">Pesan via WhatsApp</a>
+      </p>
+      <p>Bisa juga kepoin Instagram kami: <a href="https://www.instagram.com/chanssgrop" target="_blank">@chanssgrop</a></p>
+
+      <form action="#" method="post">
+        <label for="nama">Nama</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="wa">Nomor WhatsApp</label><br>
+        <input type="tel" id="wa" name="wa" placeholder="0812..." required><br><br>
+
+        <label for="produk-minat">Produk yang diminati</label><br>
+        <select id="produk-minat" name="produk">
+          <option>Jam Tangan Classic</option>
+          <option>Kaos Chancan</option>
+          <option>Keripik Pisang 250 g</option>
+          <option>Tangga Lipat Aluminium</option>
+        </select><br><br>
+
+        <label for="pesan">Pesan</label><br>
+        <textarea id="pesan" name="pesan" rows="4"></textarea><br><br>
+
+        <button type="submit">Kirim</button>
+      </form>
+
+      <!-- Peta Google Maps -->
+      <h3>Lokasi Kami</h3>
+      <iframe src="https://www.google.com/maps?q=-7.3985389,109.2310763&z=17&output=embed" width="600" height="450" allowfullscreen loading="lazy" title="Lokasi Chancan Group"></iframe>
+      <p><a href="https://maps.app.goo.gl/poVhwXGMQcZMT1nF7" target="_blank">Buka di Google Maps</a></p>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Chancan Group. Jl. Letjend Pol. Soemarto No. 2, Watumas, Purwokerto Timur, Banyumas.</p>
+  </footer>
+
+</body>
+</html>
